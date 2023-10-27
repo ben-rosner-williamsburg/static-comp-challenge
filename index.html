@@ -6,16 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Static Comp Challenge</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400o&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header-grey">
     <nav class="navigation-bar">
-      <a class="shares nav-element" href="#">SHARES</a>
-      <a class="playlists nav-element" href="#">PLAYLISTS</a>
-      <a class="videos nav-element" href="#">PERSONAL VIDEOS</a>
+      <aside class="icon-container"><a class="shares nav-element" href="#"><img src="assets/share.png" alt="an icon with three dots connected by two lines" class="icon share-icon"/>SHARES</a></div>
+      <aside class="icon-container"><a class="playlists nav-element" href="#"><img src="assets/list.png" alt="a list icon" class="icon list-icon"> PLAYLISTS</a></aside>
+      <aside class="icon-container"><a class="videos nav-element" href="#"><img src="assets/user.png" alt="a person icon" class="icon person-icon"> PERSONAL VIDEOS</a><aside>
     </nav>
-    <img class="logo" />
-    <h3 class="username top-right">Admin Username</h3>
+    <aside class="header-right">
+      <container class="admin-container"><img class="icon" src="assets/user_circle.png" alt="a person icon in a circle"/><h3 class="username top-right">Admin Username</h3></container>
+      <img class="logo" src="assets/logo.png" alt="V Logo"/>
+   </aside>
   </header>
   <main class="main-container">
     <h1 class="heading">Shares</h1>
@@ -140,5 +145,6 @@
       <h1 class="card-text num">04</h1>
     </section> 
   </main>
+  <a href="https://www.flaticon.com/free-icons/share" title="share icons">Share icons created by Freepik - Flaticon</a>
 </body>
 </html>
